@@ -12,9 +12,25 @@
 ## Install
 
 ```sh
+cd frontend
 npm install
 ```
+```sh
+cd backend
+pip install -r requirements.txt
+```
 
+## Usage
+
+```sh
+cd frontend
+npm run start
+```
+
+```sh
+cd backend
+python manage.py runserver
+```
 ## Author
 
 👤 **Jimmy Kyalo**
