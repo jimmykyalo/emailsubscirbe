@@ -23,14 +23,31 @@ pip install -r requirements.txt
 ## Usage
 
 ```sh
+navigate to backend/base/views.py
+update the part below with your api_key, server prefix and list/audience id
+mailchimp.set_config({
+    "api_key": "exxxxxxxxxxxxxxb46beb55ea0-usxx",
+    "server": "usxx"
+    })
+
+    list_id = "7b7dxxxxx" 
+```
+
+
+```sh
+Open terminal in Project Folder
+cd backend
+python manage.py runserver
+```
+
+```sh
+Open terminal in Project Folder
 cd frontend
 npm run start
 ```
 
-```sh
-cd backend
-python manage.py runserver
-```
+
+
 ## Author
 
 👤 **Jimmy Kyalo**
