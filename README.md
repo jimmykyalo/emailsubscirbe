@@ -35,13 +35,11 @@ mailchimp.set_config({
 
 
 ```sh
-Open terminal in Project Folder
 cd backend
 python manage.py runserver
 ```
 
 ```sh
-Open terminal in Project Folder
 cd frontend
 npm run start
 ```
