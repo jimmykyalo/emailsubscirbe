@@ -24,7 +24,8 @@ pip install -r requirements.txt
 
 ```sh
 navigate to backend/base/views.py
-update the part below with your api_key, server prefix and list/audience id
+
+update the part below with your: api_key, server prefix and list/audience id
 mailchimp.set_config({
     "api_key": "exxxxxxxxxxxxxxb46beb55ea0-usxx",
     "server": "usxx"
