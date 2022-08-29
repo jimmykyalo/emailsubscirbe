@@ -12,11 +12,11 @@ def subscribe(request):
     data=request.data
     mailchimp = MailchimpMarketing.Client()
     mailchimp.set_config({
-    "api_key": "e255acf5c622271cbe611b46beb55ea0-us12",
-    "server": "us12"
+    "api_key": "e25xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-usxx",
+    "server": "usxx"
     })
 
-    list_id = "7b7d5d669c"
+    list_id = "7xxxxxc"
     member_info = {
         "email_address": data['email'],
         "status": "subscribed"
